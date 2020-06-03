@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+header{
+	min-height: 900px;
+	background: url(../img/Rectangle_2.jpg) no-repeat;
+	background-size: cover;
+	color: white;
+	padding-bottom: 40px;
+ }
+.menu{
+	display: flex;
+	justify-content: center;
+
+}
+.menu-item{
+	list-style: none;
+	margin-right: 40px;
+}
+.menu-item>a{
+	text-decoration: none;
+	color: white;
+	margin-right: 40px;
+}
+nav{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid white;
+}
+.content-title{
+	display: flex; 
+	flex-direction: column; 
+	align-items:center;
+	padding-top: 400px;
+}
+.subtitle{
+	font-weight: 500;
+	font-style: 16px;
+}
+.main-title{
+	font-weight: 800;
+	font-size: 48px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.btn {
+  background: #4985ff;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  width: 200px;
+  height: 45px;
+  color: white;
+  border: none;
+}
+/*----------------section----------------*/
+.about{
+	min-height: 703px;
+
+}
+.about-block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title-section{
+	font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+    margin: 110px 0 50px 0;
+}
+.txt{
+	text-align: center;
+	margin-bottom: 70px;
+}
+.items-box{
+	display: flex;
+	justify-content:center;
+}
+.gallery{
+	display: grid;
+	grid-template-columns:50% 50%;
+	grid-template-rows: 50% 50%;
+}
